@@ -3,10 +3,11 @@ body{
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
+
 }
 .solution{
     font-family: 'Raleway', sans-serif;
-    color:orangered;
+    color:pink;
     text-transform: uppercase;
     font-size: 18px;
 }
@@ -17,9 +18,23 @@ body{
     color: rgb(43, 56, 90);
 }
 .upper-section{
-    background-image: linear-gradient(rgb(236, 236, 236),lightgrey);
+    background-image: linear-gradient(rgb(175, 175, 175),lightgrey);
     padding-left: 8%;
     padding-top:4%;
+}
+.services-list{
+    margin: 0 auto;
+    display: flex;
+}
+.services-list-h1{
+    width: 84%;
+    padding-top:8% ;
+    margin: 0 auto;
+}
+.serh1{
+    width: 50%;
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 .half-div{
@@ -36,7 +51,7 @@ body{
 .button{
     text-decoration: none;
     padding: 16px 40px;
-    background-color: lightgrey;
+    background-color: rgb(230, 107, 107);
     display: inline-block;
     margin-left: 20px;
     border-radius: 5px;
@@ -57,6 +72,34 @@ body{
     transition: 0.7s;
 }
 #button-start:hover{
-    transition: 0.7s;
+    transition: 1s;
     box-shadow: inset 400px 0 0 0 red;
+}
+.services{
+    
+    border:1px solid rgb(128, 128, 128, 0.2);
+    margin: 15px 0;
+    margin-left: 30px;
+    flex-direction: column;
+    border-radius: 5px;
+    letter-spacing: 0;
+
+}
+.services h3{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.services p{
+    padding: 10px 30px;
+    text-align: center;
+}
+.services img{
+    align-items: center;
+    justify-items: center;
+    width: 40%;
+    padding: 0 30%;
+}
+#margin-remove{
+    margin-left: 0;
 }
