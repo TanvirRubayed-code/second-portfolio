@@ -89,6 +89,8 @@ body{
     text-align: center;
     font-size: 28px;
     font-family: 'Ibarra Real Nova', serif;
+    color: rgb(43, 56, 90);
+}
 }
 .services p{
     padding: 10px 30px;
